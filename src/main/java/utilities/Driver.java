@@ -6,7 +6,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Driver {
 
+    //singleton
+
     private static WebDriver driver;
+
 
     public static WebDriver getDriver(){
 
