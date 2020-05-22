@@ -9,10 +9,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
                 "html:target/cucumber-report",
                 "json:target/cucumber.json"
         },
-//        plugin = {"pretty:STDOUT","html:target",
-//                "json:target//cucumber.json"
-//                //"com.cucumber.listener.ExtentCucumberFormatter:target//report.html"
-//        },
 
 //        if you need to run specific feature files then add tag here and in the
 //          feature file then it will run those feature files
@@ -22,7 +18,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         features = {"src/test/java/resources"},
 
 //        location of the step definitions
-        glue={"src/test/java/stepDefinition"},
+        glue={"stepDefinition"},
 
 //        if the dry run is true it is making sure your feature files steps are
 //          created in the step definition
